@@ -48,13 +48,7 @@ const Header = () => {
         <Search />
         <div className="button-container">
           <CommonButton>Log in</CommonButton>
-          <CommonButton
-            bgColor="var(--blue-500)"
-            color="#fff"
-            border="transparent"
-          >
-            Sign up
-          </CommonButton>
+          <CommonButton>Sign up</CommonButton>
         </div>
       </div>
     </HeaderContainer>

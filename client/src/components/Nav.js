@@ -17,6 +17,14 @@ const NavWrapper = styled.div`
     text-align: center;
     cursor: pointer;
     background-color: white;
+
+    :last-child {
+      background-color: #408ef1;
+      color: white;
+      font-size: 1px;
+      box-shadow: inset 0 1px 0 0 hsl(0deg 0% 100% / 40%);
+      border: 1px solid;
+    }
   }
 `;
 
@@ -29,7 +37,7 @@ function Nav() {
       <button className="nav--button">카테고리 4</button>
       <button className="nav--button">카테고리 5</button>
       <button className="nav--button">카테고리 6</button>
-      <button className="nav--button">글 작성</button>
+      <button className="nav--button">✎ 글 작성</button>
     </NavWrapper>
   );
 }
